@@ -1,15 +1,24 @@
 .radio {
+  width: 20px;
+  height: 20px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .radio::before {
 }
 
-
 .radio:checked::before {
 }
 
 .label {
+  display: flex;
+  gap: 10px;
 }
 
 .options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
