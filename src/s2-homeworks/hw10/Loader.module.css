@@ -1,3 +1,20 @@
 .loader {
-    /*свг и/или анимация*/
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  background:
+    linear-gradient(white, white) padding-box,
+    radial-gradient(at top, #512de4, #ffffff) border-box;
+  background-clip: padding-box, border-box;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
