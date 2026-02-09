@@ -18,7 +18,7 @@
   height: 100%;
   padding: 20px 70px 130px;
   outline: 1px solid rgba(217, 217, 217, 1);
-  background-color: rgba(255, 255, 255, 1);
+  /* background-color: rgba(255, 255, 255, 1); */
 
   display: flex;
   flex-direction: column;
